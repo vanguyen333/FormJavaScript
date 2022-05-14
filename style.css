@@ -1,0 +1,51 @@
+/* code reference https://codepen.io/javascriptacademy-stash/pen/oNeNMNR 
+https://www.youtube.com/watch?v=CYlNJpltjMM*/
+body {
+  background: linear-gradient(to right, #a1d2e6, #a1e6d1, #a3a1e6);
+  font-family: sans-serif;
+}
+#form {
+  width: 300px;
+  margin: 200px auto;
+  padding: 30px;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: whitesmoke;
+}
+form h1 {
+  color: #3b4e66;
+  text-align: center;
+}
+#form button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(41, 57, 194);
+  border: none;
+  border-radius: 4px;
+}
+.input-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+.input-control input:focus {
+  outline: 0;
+}
+.input-control.success input {
+  border-color: aquamarine;
+}
+.input-control.error input {
+  border-color: red;
+  font-size: 9px;
+  height: 13px;
+}
+.input-control .error {
+  color: red;
+  font-size: 9px;
+  height: 13px;
+}
